@@ -16,7 +16,7 @@ build:
     image_template: dotnet-3.1
     
 deploy:
-    context: mushraf6461/DEV
+    context: anushab7/DEV
     replicas: 1
     port:
     - 80
@@ -30,4 +30,4 @@ properties:
       vault: POSTGRESQL_DOTNET_PASSWORD
    ASPNETCORE_ENVIRONMENT: Development
    DLL: PostgreSqlDotnetCore.dll
-   revision: 45
+   revision: 46
