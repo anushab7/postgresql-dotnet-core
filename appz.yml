@@ -1,7 +1,7 @@
 app:
     name: Postgres Dotnet Core
     code: POSTGRESDOTNETCORE
-    notify: mmushraf@ecloudcontrol.com
+    notify: aborra@ecloudcontrol.com
     
 build:
     version: 3.1
